@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-@Component
+
 @Repository
 @Transactional
 public class UserDaoImpl implements UserDAO {
